@@ -36,6 +36,15 @@ public class VehicleBuilder implements Builder<Vehicle>{
 
     private List<Vehicle> vehicleList;
     private List<Vehicle> vehicleFinalList;
+    private List<String> strList;
+
+    public List<String> getStrList() {
+        return strList;
+    }
+
+    public void setStrList(List<String> strList) {
+        this.strList = strList;
+    }
 
     public VehicleBuilder(List<Vehicle> vehicleFinalList){
         this.vehicleFinalList = vehicleFinalList;
